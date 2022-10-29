@@ -1,0 +1,34 @@
+* {
+    background: purple;
+}
+.main {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.cube {
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+.cube-left {
+    width: 30%;
+    height: 200px;
+}
+.cube-mid {
+    width: 40%;
+    height: 200px;
+    background: blue;
+    border: solid 3px white;
+    cursor: pointer;
+    margin-top: 230px;
+}
+.cube-mid:hover {
+    background: orangered;
+    border: solid 3px black;
+}
+.cube-right {
+    width: 30%;
+    height: 200px;
+};
